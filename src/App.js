@@ -1,11 +1,11 @@
 import React from 'react';
-import './App.css';
-import Form from './component/Form';
+import './style.scss';
+import Forms from './component/Forms';
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <Forms />
     </div>
   );
 }
